@@ -17,7 +17,7 @@ public class TowerOfHanoi {
     public static void main(String[] args) {
         int numSteps = 0;
         TowerOfHanoi toh = new TowerOfHanoi();
-        toh.move(5, 'A', 'C', 'B');
+        toh.move(3, 'A', 'C', 'B');
         System.out.println();
     }
 }

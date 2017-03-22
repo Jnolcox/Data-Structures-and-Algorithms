@@ -4,6 +4,8 @@ Introduction to basic data structures and algorithms
 ***
 * Arrays
 * Linked Lists
+  * Doubly Linked List
+  * Singly Linked List
 * Stacks
 * Queues
 * Trees
@@ -11,7 +13,8 @@ Introduction to basic data structures and algorithms
 * Various sorting algorithms
   * Sorting
   * Operations on binary search trees and heaps  
-* Recursion  
+* Recursion
+  * Tower of Hanoi
 ***
 This repo uses the Java programming langauge to implement algorithms
 
