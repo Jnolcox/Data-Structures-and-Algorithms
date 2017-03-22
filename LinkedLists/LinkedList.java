@@ -23,6 +23,10 @@ public class LinkedList {
         return length;
     }
 
+    public void deleteFromHead() {
+        this.head = this.head.getNextNode();
+    }
+
     @Override
     public String toString() {
         String result = "{";

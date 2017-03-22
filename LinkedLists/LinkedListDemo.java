@@ -14,6 +14,8 @@ public class LinkedListDemo {
         list.insertAtHead(20);
         list.insertAtHead(21);
 
+        list.deleteFromHead();
+
         System.out.println(list);
         System.out.println("Length: " + list.length());
     }
