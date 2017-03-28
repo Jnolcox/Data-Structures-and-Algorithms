@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="doubly linked list practice">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/UdemyPractice.iml" afterPath="$PROJECT_DIR$/.idea/UdemyPractice.iml" />
+    <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Heaps/Heap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stacks and Queues/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="936">
@@ -68,6 +66,23 @@
               <folding>
                 <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Heaps/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#1876#1877#0" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#2582#2583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,16 +153,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedListDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -161,7 +166,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Stacks-and-Queues" />
       </map>
     </option>
   </component>
@@ -185,6 +190,7 @@
         <option value="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
+        <option value="$PROJECT_DIR$/Heaps/Heap.java" />
       </list>
     </option>
   </component>
@@ -778,7 +784,7 @@
       <updated>1490145471091</updated>
       <workItem from="1490145473146" duration="5889000" />
       <workItem from="1490154633740" duration="439000" />
-      <workItem from="1490739109768" duration="354000" />
+      <workItem from="1490739109768" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -836,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490739381631</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Stacks">
+      <created>1490739474080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490739474080</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6682000" />
+    <option name="totallyTimeSpent" value="6798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,7 +915,8 @@
     <MESSAGE value="doubly ended list practice" />
     <MESSAGE value="doubly linked list practice&#10;" />
     <MESSAGE value="Added Stacks and Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Stacks and Queues" />
+    <MESSAGE value="Added Stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1171,6 +1185,21 @@
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heaps/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
           </folding>
         </state>
       </provider>
