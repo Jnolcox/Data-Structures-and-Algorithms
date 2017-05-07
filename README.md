@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Introduction to basic data structures and algorithms learned from CSC230 class.
+Introduction to basic data structures and algorithms learned from CSC330 class.
 
 ***
 
