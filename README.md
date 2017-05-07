@@ -1,7 +1,9 @@
 # Data Structures and Algorithms
 
 Introduction to basic data structures and algorithms learned from CSC230 class.
+
 ***
+
 * Arrays
 * Linked Lists
   * Doubly Linked List
@@ -15,6 +17,7 @@ Introduction to basic data structures and algorithms learned from CSC230 class.
   * Operations on binary search trees and heaps  
 * Recursion
   * Tower of Hanoi
+  
 ***
 
 This repo uses the Java programming langauge to implement algorithms.
