@@ -20,6 +20,6 @@ Introduction to basic data structures and algorithms learned from CSC330 class.
   
 ***
 
-This repo uses the Java programming langauge to implement algorithms.
+This repo uses the Java programming language to implement algorithms.
 
 The wiki will be updated at a later time with further content.
