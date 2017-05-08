@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Heaps/AscendingHeap.java" afterPath="$PROJECT_DIR$/Heaps/AscendingHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Heaps/Heap.java" afterPath="$PROJECT_DIR$/Heaps/Heap.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AscendingHeap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AscendingHeap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Heaps/AscendingHeap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -48,6 +48,18 @@
                 <element signature="e#0#2869#0" expanded="true" />
                 <element signature="e#758#759#0" expanded="true" />
                 <element signature="e#807#808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Heaps/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#3879#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,11 +101,11 @@
         <option value="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
-        <option value="$PROJECT_DIR$/Heaps/Heap.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LinkedLists/Palindrome.java" />
         <option value="$PROJECT_DIR$/LinkedLists/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/Heaps/AscendingHeap.java" />
+        <option value="$PROJECT_DIR$/Heaps/Heap.java" />
       </list>
     </option>
   </component>
@@ -687,7 +699,7 @@
       <workItem from="1490154633740" duration="439000" />
       <workItem from="1490739109768" duration="931000" />
       <workItem from="1494125394253" duration="1959000" />
-      <workItem from="1494262222131" duration="777000" />
+      <workItem from="1494262222131" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -794,11 +806,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494128309679</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ascendingheap">
+      <created>1494263011277</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263011277</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9995000" />
+    <option name="totallyTimeSpent" value="10014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,7 +917,8 @@
     <MESSAGE value="." />
     <MESSAGE value="changed course number" />
     <MESSAGE value="fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
+    <MESSAGE value="ascendingheap" />
+    <option name="LAST_COMMIT_MESSAGE" value="ascendingheap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -964,12 +984,12 @@
         <state relative-caret-position="1768">
           <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
           <folding>
-            <element signature="e#164#165#0" expanded="false" />
-            <element signature="e#213#214#0" expanded="false" />
-            <element signature="e#1876#1877#0" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-            <element signature="e#2582#2583#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2485#2486#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3132#3133#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1252,21 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Heaps/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
-          <folding>
-            <element signature="e#164#165#0" expanded="false" />
-            <element signature="e#213#214#0" expanded="false" />
-            <element signature="e#1876#1877#0" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-            <element signature="e#2582#2583#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -1336,6 +1341,16 @@
             <element signature="e#0#2869#0" expanded="true" />
             <element signature="e#758#759#0" expanded="true" />
             <element signature="e#807#808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heaps/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3879#0" expanded="true" />
           </folding>
         </state>
       </provider>
