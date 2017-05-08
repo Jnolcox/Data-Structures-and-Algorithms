@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLists/Node.java" afterPath="$PROJECT_DIR$/LinkedLists/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Recursion/TowerOfHanoi.java" afterPath="$PROJECT_DIR$/Recursion/TowerOfHanoi.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedLists/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -129,15 +129,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AscendingHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Heaps/AscendingHeap.java">
+      <file leaf-file-name="TowerOfHanoi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion/TowerOfHanoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#0#2869#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#0#1237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,6 +194,7 @@
         <option value="$PROJECT_DIR$/LinkedLists/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/LinkedLists/Node.java" />
+        <option value="$PROJECT_DIR$/Recursion/TowerOfHanoi.java" />
       </list>
     </option>
   </component>
@@ -789,7 +788,7 @@
       <workItem from="1490154633740" duration="439000" />
       <workItem from="1490739109768" duration="931000" />
       <workItem from="1494125394253" duration="1959000" />
-      <workItem from="1494262222131" duration="885000" />
+      <workItem from="1494262222131" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -959,11 +958,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494263105625</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="node">
+      <created>1494263115102</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263115102</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10103000" />
+    <option name="totallyTimeSpent" value="10120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1072,7 +1078,8 @@
     <MESSAGE value="dll node" />
     <MESSAGE value="linked list" />
     <MESSAGE value="ll demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ll demo" />
+    <MESSAGE value="node" />
+    <option name="LAST_COMMIT_MESSAGE" value="node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1525,6 +1532,16 @@
             <element signature="e#0#1093#0" expanded="true" />
             <element signature="e#694#695#0" expanded="true" />
             <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursion/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1237#0" expanded="true" />
           </folding>
         </state>
       </provider>
