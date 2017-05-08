@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stacks and Queues/Queue.java" afterPath="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stacks and Queues/Stack.java" afterPath="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,18 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoublyEndedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyEndedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DoublyEndedListDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyEndedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,13 +129,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stacks and Queues/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stacks and Queues/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2062#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +179,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LinkedLists/Palindrome.java" />
         <option value="$PROJECT_DIR$/LinkedLists/ReverseLinkedList.java" />
@@ -195,6 +194,7 @@
         <option value="$PROJECT_DIR$/LinkedLists/Node.java" />
         <option value="$PROJECT_DIR$/Recursion/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
+        <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
       </list>
     </option>
   </component>
@@ -788,7 +788,7 @@
       <workItem from="1490154633740" duration="439000" />
       <workItem from="1490739109768" duration="931000" />
       <workItem from="1494125394253" duration="1959000" />
-      <workItem from="1494262222131" duration="914000" />
+      <workItem from="1494262222131" duration="930000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -972,11 +972,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494263130904</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="queue">
+      <created>1494263146717</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263146717</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10132000" />
+    <option name="totallyTimeSpent" value="10148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1086,7 +1093,8 @@
     <MESSAGE value="linked list" />
     <MESSAGE value="ll demo" />
     <MESSAGE value="node" />
-    <option name="LAST_COMMIT_MESSAGE" value="node" />
+    <MESSAGE value="queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1141,8 +1149,8 @@
         <state relative-caret-position="850">
           <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
-            <element signature="e#162#163#0" expanded="false" />
-            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#760#761#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1382,17 +1390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stacks and Queues/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding>
-            <element signature="e#162#163#0" expanded="false" />
-            <element signature="e#192#193#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1542,6 +1539,16 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#2623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stacks and Queues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2062#0" expanded="true" />
           </folding>
         </state>
       </provider>
