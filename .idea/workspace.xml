@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLists/LinkedList.java" afterPath="$PROJECT_DIR$/LinkedLists/LinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" afterPath="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,13 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#1694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +167,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LinkedLists/Node.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
@@ -170,6 +181,7 @@
         <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedNode.java" />
         <option value="$PROJECT_DIR$/LinkedLists/LinkedList.java" />
+        <option value="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" />
       </list>
     </option>
   </component>
@@ -763,7 +775,7 @@
       <workItem from="1490154633740" duration="439000" />
       <workItem from="1490739109768" duration="931000" />
       <workItem from="1494125394253" duration="1959000" />
-      <workItem from="1494262222131" duration="861000" />
+      <workItem from="1494262222131" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -919,11 +931,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494263080259</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="linked list">
+      <created>1494263093539</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263093539</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10079000" />
+    <option name="totallyTimeSpent" value="10092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1030,7 +1049,8 @@
     <MESSAGE value="dll" />
     <MESSAGE value="dll demo" />
     <MESSAGE value="dll node" />
-    <option name="LAST_COMMIT_MESSAGE" value="dll node" />
+    <MESSAGE value="linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1364,14 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1479,6 +1491,16 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1119#0" expanded="true" />
           </folding>
         </state>
       </provider>
