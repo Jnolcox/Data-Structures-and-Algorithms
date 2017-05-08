@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7290289a-8112-48d8-8ba7-f277e672d019" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLists/DoublyLinkedList.java" afterPath="$PROJECT_DIR$/LinkedLists/DoublyLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java" afterPath="$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,13 +53,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#1560#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedListDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1026#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +132,6 @@
         <option value="$PROJECT_DIR$/LinkedLists/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedLists/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedNode.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Stacks and Queues/Stack.java" />
@@ -132,6 +143,7 @@
         <option value="$PROJECT_DIR$/LinkedLists/DoublyEndedList.java" />
         <option value="$PROJECT_DIR$/LinkedLists/DoublyEndedListDemo.java" />
         <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java" />
       </list>
     </option>
   </component>
@@ -725,7 +737,7 @@
       <workItem from="1490154633740" duration="439000" />
       <workItem from="1490739109768" duration="931000" />
       <workItem from="1494125394253" duration="1959000" />
-      <workItem from="1494262222131" duration="829000" />
+      <workItem from="1494262222131" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="Linked list practice, first few videos">
       <created>1490146326605</created>
@@ -860,11 +872,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494263047658</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dll">
+      <created>1494263060095</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1494263060095</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10047000" />
+    <option name="totallyTimeSpent" value="10057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -968,7 +987,8 @@
     <MESSAGE value="heap" />
     <MESSAGE value="del" />
     <MESSAGE value="del demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="del demo" />
+    <MESSAGE value="dll" />
+    <option name="LAST_COMMIT_MESSAGE" value="dll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1267,13 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1413,6 +1426,16 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedLists/DoublyLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1026#0" expanded="true" />
           </folding>
         </state>
       </provider>
