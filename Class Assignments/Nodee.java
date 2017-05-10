@@ -5,19 +5,18 @@ public class Nodee {
 
     private String name;
     private Nodee next;
+    private Nodee prev;
 
     public Nodee () {
         name = " ";
         next = null;
+        prev = null;
     }
 
     public Nodee(String name) {
         this.name = name;
     }
 
-    public Nodee(Nodee next) {
-        this.next = next;
-    }
 
     public String getName() {
         return name;
@@ -31,8 +30,16 @@ public class Nodee {
         return next;
     }
 
+    public Nodee getPrev() {
+        return prev;
+    }
+
     public void setNext(Nodee next) {
         this.next = next;
+    }
+
+    public void setPrev(Nodee prev) {
+        this.prev = prev;
     }
 
     @Override
