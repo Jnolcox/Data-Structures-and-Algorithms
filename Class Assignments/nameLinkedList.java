@@ -13,8 +13,13 @@ public class nameLinkedList {
     private Nodee head;
     private Nodee tail;
 
+    public boolean isEmpty() {
+        return (head == null);
+    }
+
     public void insertAtHead (String name) {
         Nodee newNode = new Nodee (name); // create a new node
+
 
         if ( this.head == null ) {
             this.tail = newNode;
@@ -30,8 +35,8 @@ public class nameLinkedList {
         //this.head = newNode; // point to first node as head
     }
 
-    public void deleteAtHead (Nodee name) {
-        this.head = this.head.getNext();
+    public deleteAtHead (Nodee name) {
+
     }
 
     public void listNames() {
@@ -54,8 +59,9 @@ public class nameLinkedList {
 
             //the pointer should be on the last node now
             System.out.print(temp.getName() + " "); //print the tail of the node
-            temp = temp.getPrev(); //set the pointer to the one before the current node
-            temp.setNext(null); //set the next node to point to nothing
+            temp = temp.getPrev();//set the pointer to the one before the current node
+            if (temp.getPrev() != null)
+                temp.setNext(null); //set the next node to point to nothing
         }
     }
 
